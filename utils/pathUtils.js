@@ -4,7 +4,7 @@ const _ = require('lodash');
 const URL = require('url-parse');
 const SHA1 = require("crypto-js/sha1");
 
-const defaultExtension = 'file';
+const defaultExtension = ['mov', 'mp4'];
 
 function serializeObjectKeys(obj) {
     return _(obj)
